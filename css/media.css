@@ -1,0 +1,54 @@
+@media (max-width:767px){
+    header .header-holder h1{
+        font-size: 3rem;
+    }
+    .myNav .myNav-holder .left li {
+        padding: 4px 11px;
+        font-size: 14px;
+    }
+    .myNav .myNav-holder .right li {
+        float: left;
+        padding: 9px;
+        margin: 11px 6%;
+    }
+    .work .work-holder .container .work-up .row .col:nth-of-type(2) {
+        font-size: 20px;
+    }
+    .work .work-holder .first-subject .zoom {
+        transition: transform .4s;
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    footer .footer-holder .container .row {
+        display: inherit;
+    }
+    footer .footer-holder .container .row .fourth-sec .col-4{
+        float: left;
+    }
+    footer .footer-holder .container .row .fourth-sec .col-8{
+        float: left;
+        padding-left: 72px;
+    
+    }
+    footer .footer-holder .container .row .forms{
+        border: none;
+    }
+}
+@media (min-width:767px) and (max-width: 992px){
+    .myNav .myNav-holder .links .right {
+        font-size: 13px;
+    }
+    footer .footer-holder .container .row .info ul li {
+        margin-right: 3px;
+        margin-bottom: 0px;
+    }
+    .work .work-holder .first-subject .zoom{
+        width: 90%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+
+}

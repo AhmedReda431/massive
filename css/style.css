@@ -1,0 +1,407 @@
+html{
+    background: url("img/background.jfif") no-repeat fixed center center;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Merriweather", Georgia, serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2.375;
+    background-color: rgba(2, 2, 2, 0.7);
+    color: #fff;
+    overflow-x: hidden;
+}
+header {
+    color: #ffffff;
+    padding: 8rem 4rem 6rem 4rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: -moz-flex-end;
+    -webkit-justify-content: -webkit-flex-end;
+    -ms-justify-content: -ms-flex-end;
+    justify-content: flex-end;
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    position: relative;
+    cursor: default;
+    text-align: center;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+header .header-holder h1{
+    font-size: 5rem;
+    line-height: 1;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+
+header .header-holder span{
+    color: #18BFEF;
+}
+header .header-holder p{
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: -0.25rem;
+    text-align: center;
+}
+
+header .header-holder .down-button{
+    padding: 23px 25px;
+    color: #fff;
+    border: 2px solid ;
+    border-radius: 50%;
+    font-size: 22px;
+}
+header .header-holder .down-button:hover{
+    cursor: pointer;
+    color: #18BFEF;
+}
+/****************************************************************/
+.massivelyButton{
+    display: none;
+    
+}
+.massivelyButton:hover{
+    color:#18BFEF ;
+    
+    
+}
+
+.massivelyButton button{
+    background: transparent;
+    color: #fff;
+    padding: 20px 35px;
+    font-size: 30px;
+    border: 2px solid;
+}
+.massivelyButton button:hover{
+    color:#18BFEF ;
+    background: transparent;
+    border-color:#18BFEF ;
+}
+/****************************************************************/
+.myNav{
+    margin-top: 5%;
+}
+.myNav .myNav-holder .container{
+    background-color:rgba(112, 112, 112, 0.2);
+}
+.myNav .myNav-holder .links>div{
+    display: inline;
+}
+.myNav .myNav-holder .left{
+    float: left;
+}
+.myNav .myNav-holder .left li{
+    padding: 20px 5px;
+    float: left;
+}
+.myNav .myNav-holder .right li{
+    float: right;
+    padding: 10px;
+}
+.myNav .myNav-holder .right li:hover{
+    color:#18BFEF ;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.myNav .myNav-holder .left li:first-of-type{
+    margin-left: -15px;
+}
+
+.myNav .myNav-holder .left li.active{
+    background-color: #fff;
+    color: #333;
+}
+/****************************************************************/
+.work .work-holder .container{
+    background-color: #fff;
+    color: #333;
+    width: 100%
+}
+.work .work-holder .container .work-up{
+    padding: 9% 0;
+}
+.work .work-holder .container .work-up .row .col:first-of-type,
+.work .work-holder .container .work-up .row .col:last-of-type{
+    background-color: #eee;
+    height: 3px;
+    margin-top: 20px;
+}
+.work .work-holder .container .work-up .row{
+    padding: 0 80px;
+}
+.work .work-holder .container .work-up .row .col:nth-of-type(2){
+    font-size: 23px;
+}
+
+/*********************************************************************/
+.work .work-holder .first-subject {
+    padding-bottom: 9%;
+}
+.work .work-holder .first-subject h1{
+    font-size: 5rem;
+    line-height: 1;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-transform: uppercase
+    
+}
+
+.work .work-holder .first-subject h1:hover{
+color:#18BFEF;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+
+.work .work-holder .first-subject p{
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: -0.25rem;
+    text-align: center;
+}
+.work .work-holder .first-subject .zoom {
+    transition: transform .4s; /* Animation */
+    width: calc(100% - 250px);
+    height: 500px;
+    margin: 0 auto;
+  }
+.work .work-holder .first-subject .zoom:hover {
+    transform: scale(1.1);
+  }
+
+.work .work-holder .first-subject button{
+    margin-top: 75px;
+    border: 2px solid #000;
+    padding: 15px 30px;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 0;
+}
+
+.work .work-holder .second-subject {
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    padding: 4px 0;
+}
+.work .work-holder .third-subject {
+    background-color: #EEEEEE;
+}
+.work .work-holder .fourth-subject {
+    background-color: #EEEEEE;
+}
+.work .work-holder .third-subject,.work .work-holder .fourth-subject {
+    padding-bottom: 4px;
+}
+.work .work-holder .second-subject .first-second,.work .work-holder .second-subject .second-second,
+.work .work-holder .third-subject .first-second,.work .work-holder .third-subject .second-second,
+.work .work-holder .fourth-subject .first-second,.work .work-holder .fourth-subject .second-second{
+    background-color: #fff;
+    width: 49.8%;
+    padding: 2%;
+}
+.work .work-holder .second-subject h6,.work .work-holder .third-subject h6 ,.work .work-holder .fourth-subject h6{
+    margin-top: 50px;
+}
+
+.work .work-holder .second-subject h2,.work .work-holder .third-subject h2,.work .work-holder .fourth-subject h2{
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin: 0 0 1.5rem 0;
+    color: #212931;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+.work .work-holder .second-subject img,.work .work-holder .third-subject img,.work .work-holder .fourth-subject img{
+    width: 100%;
+    padding: 20px;
+    transition: transform .4s;
+}
+.work .work-holder .second-subject img:hover,.work .work-holder .third-subject img:hover,
+.work .work-holder .fourth-subject img:hover{
+    transform: scale(1.1);
+    margin-bottom: 15px;
+}
+.work .work-holder .second-subject h2:hover,.work .work-holder .third-subject h2:hover,
+.work .work-holder .fourth-subject h2:hover{
+    color: #18BFEF;
+}
+.work .work-holder .second-subject .first-second,.work .work-holder .third-subject .first-second,
+.work .work-holder .fourth-subject .first-second{
+    float: left;
+    
+}
+.work .work-holder .second-subject .second-second,.work .work-holder .third-subject .second-second,
+.work .work-holder .fourth-subject .second-second{
+    float: right;
+}
+.work .work-holder .second-subject button,.work .work-holder .third-subject button,
+.work .work-holder .fourth-subject button{
+    border: 2px solid #000;
+    padding: 12px 20px;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 0;
+    color: #212529;
+    margin-bottom: 30px;
+}
+/***********************************************/
+.pages .pages-holder .container{
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    padding: 3% 0;
+}
+.pages .pages-holder .container{
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    padding: 3% 0;
+}
+
+.pages .pages-holder .container .pagination {
+    display: -moz-inline-flex;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flex;
+    display: inline-flex;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    list-style: none;
+    margin: 0 0 2rem 2px;
+    padding: 0;
+}
+.pages .pages-holder .container a {
+    cursor: pointer;
+}
+
+.pages .pages-holder .container .pagination a.active {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+}
+.pages .pages-holder .container .pagination a {
+    color: #212931 !important;
+    
+}
+
+.pages .pages-holder .container .pagination a, .pages .pages-holder .container .pagination span {
+    -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: solid 2px;
+    display: inline-block;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 900;
+    height: 3rem;
+    letter-spacing: 0.075em;
+    line-height: calc(3rem - 4px);
+    margin-left: -2px;
+    min-width: 3rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-color: #eeeeee;
+}
+.pages .pages-holder .container .pagination .next, .pages .pages-holder .container .pagination .previous {
+    text-decoration: none;
+    padding: 0 1.75rem;
+}
+
+/****************************************/
+footer .footer-holder .container{
+    background-color: #F5F5F5;
+    color: #717981;
+    padding: 0;
+    word-break: break-word;;
+}
+footer .footer-holder .container .row .col{
+    padding: 5%; 
+}
+footer .footer-holder .container .row  .forms{
+    border-right: 2px solid #E2E2E2;
+}
+footer .footer-holder .container .row  .forms .form-control{
+    border: 2px solid #E2E2E2;
+    margin-bottom: 15px;
+}
+footer .footer-holder .container .row .forms button{
+    border: 2px solid #717981;
+    background: transparent;
+    color: #717981;
+    border-radius: 0;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    word-spacing: -7px;
+}
+
+footer .footer-holder .container .row .info h5,footer .footer-holder .container .row .info p:first-of-type{
+    display: inline-block;
+}
+footer .footer-holder .container .row .info hr{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+footer .footer-holder .container .row .info ul li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+footer .footer-holder .container .row .info ul li i{
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 12px;
+}
+footer .footer-holder .container .row .info ul li i.fa-facebook-f{
+    padding: 12px 16px;
+}
+/***********************************************/
+.last-word{
+    padding: 5% 0;
+}
+.last-word span{
+    color:#A0A6A3;
+}
+/**************************************/
+.scrollButton{
+    display: none;
+    position: fixed;
+    bottom: 11px;
+    right: 20px;
+    padding: 2px 10px 0px;
+    color: #212931;
+    background-color: #717981;
+    font-size: 16px;
+    line-height: 2.7;
+    border: none;
+    border-radius: 8px 8px 0 0;
+}
