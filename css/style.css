@@ -74,7 +74,8 @@ header .header-holder .down-button:hover{
 }
 /****************************************************************/
 .massivelyButton{
-    display: none;
+    opacity: 1;
+    visibility: visible;
     
 }
 .massivelyButton:hover{
