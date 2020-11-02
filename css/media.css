@@ -9,7 +9,7 @@
     .myNav .myNav-holder .right li {
         float: left;
         padding: 9px;
-        margin: 11px 6%;
+        margin: 11px 6px;
     }
     .work .work-holder .container .work-up .row .col:nth-of-type(2) {
         font-size: 20px;
@@ -34,6 +34,12 @@
     footer .footer-holder .container .row .forms{
         border: none;
     }
+    .work .work-holder .first-subject h1{
+        font-size: 25px;
+    }
+    .pages .pages-holder .container .pagination{
+        display: inline-block;
+    }
 }
 @media (min-width:767px) and (max-width: 992px){
     .myNav .myNav-holder .links .right {
@@ -47,8 +53,4 @@
         width: 90%;
         height: 100%;
     }
-}
-
-@media (min-width: 992px) and (max-width:1200px){
-
 }
