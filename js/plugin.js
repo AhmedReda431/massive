@@ -4,10 +4,10 @@ $(document).ready(function(){
                 df = $(".down-button").offset().top;
         if(sc+200 >=df){
             $("header").css({opacity:0})
-            $(".massivelyButton").slideDown(1000)
+            $(".massivelyButton").css({opacity:1})
         }else{
             $("header").css({opacity:1});
-            $(".massivelyButton").fadeOut(1000);
+            $(".massivelyButton").css({opacity:0})
         }
 
     });
